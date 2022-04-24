@@ -1,0 +1,21 @@
+/* @import url(../Fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+
+html {
+    font-family: 'Kufam', sans-serif; */
+}
+html {
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+}
+
+h2 {
+    padding: 20px 20px;
+    font-size: 45px;
+    text-align: center;
+    color: yellow;
+    /* color: var(--text-color); */
+}
+
+p {
+    color: var(--white-color);
+}

@@ -16,7 +16,7 @@
 
 .header__logo {
     position: relative;
-    left: -26%;
+    left: -660px;
 }
 .header__item a{
     color: var(--white-color);

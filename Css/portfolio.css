@@ -1,0 +1,17 @@
+.portfolio {
+    /* background-image: url(../Images/Main.png); */
+    background-image: linear-gradient(rgb(65, 63, 63), black);
+    height: 80vh;
+    background-size: contain;
+    /* background-color: var(--black-color); */
+    /* box-shadow: 20px 20px 20px 20px rgb(0, 0, 0) inset; */
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    background-position: 10%;
+    background-size: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,54 +1,62 @@
-/* @media only screen and (max-width: 280px){
-    .main__contactBtn {
-        display: none;
-    }
-}
-@media only screen and (max-height: 550px){
-    .main__contactBtn {
-        display: none;
-    }
-}
-@media only screen and (max-height: 490px){
-    .contactMe {
-        display: none;
-    }
-}
-@media only screen and (max-width: 1470px){
-    .contactMe {
-        height: 50vh;
-        background-image:linear-gradient(black,rgb(65, 63, 63));
-        background-repeat: no-repeat;
-        background-position: 10%;
-        background-size: 100%;
 
-        background-color: var(--black-color);
-        color: var(--white-color);
-        /* border: 2px solid var(--white-color);
-        border-radius: 50px; */
-        text-align:center;
-    }
-}
-@media only screen and (max-width: 280px){
+/* Header */
+@media only screen and (max-width: 690px){
+        .header__item a {
+            font-size: 5VW;
+        }
+        .header {
+            justify-content: flex-end;
+        }}
+@media only screen and (max-width: 320px){
+            .header__item a {
+                font-size: 4VW;
+            }}
+/* Main */
+@media only screen and (max-width: 370px){
     .main__preTitle {
-        font-size: 17.5px;
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 20px;
     }
     .main__title {
-        font-size: 35px;
+        font-size: 20px;
+    }}
+/* Portfolio */
+@media only screen and (max-width: 1100px){
+    .card_container {
+        transform: scale(0.8);
     }
-    .main_contactInfo {
-        font-size: 12.5px;
-    }
-
 }
-@media only screen and (max-height: 550px){
-    .main__preTitle {
-        font-size: 17.5px;
+@media only screen and (max-width: 880px){
+    .card_container {
+        transform: scale(0.6);
     }
-    .main__title {
-        font-size: 35px;
+}
+@media only screen and (max-width: 670px){
+    .card_container {
+        transform: scale(0.4);
     }
-    .main_contactInfo {
-        font-size: 12.5px;
+}
+@media only screen and (max-width: 450px){
+    .card_container {
+        transform: scale(0.3);
     }
-
-} */
+}
+@media only screen and (max-width: 350px){
+    .card_container {
+        transform: scale(0.25);
+    }
+}
+@media only screen and (max-height: 620px){
+    .portfolio_header {
+        position: relative;
+        top: 162px;    
+    }
+    .portfolio {
+        height: 620px;
+    }
+    .card_container {
+        transform: scale(0.5);
+    }
+}

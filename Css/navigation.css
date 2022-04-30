@@ -2,7 +2,7 @@
     width: 100vw;
 }
 .header {
-    
+    height: 69px;
     display:flex;
     background-color: var(--black-color);
     /* background-image: url(../Images/Logo.png);
@@ -18,8 +18,9 @@
 }
 
 .header__logo {
-    position: relative;
-    left: -635px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 .header__item a{
     color: var(--white-color);

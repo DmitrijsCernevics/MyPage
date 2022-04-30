@@ -2,3 +2,13 @@
     background-color: var(--black-color);
     color: var(--white-color);
 }
+.footer__icons {
+    display: flex;
+}
+.icons__style {
+    height:50px;
+}
+.icons__style:hover {
+    filter: brightness(120%);
+    transform: scale(1.1);
+}

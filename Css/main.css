@@ -33,6 +33,9 @@
     text-decoration: none;
     color: rgb(45, 145, 238);
 }
+.main__contactInfo:hover {
+    transform: scale(1.1);
+}
 .main__contactBtn {
     text-decoration:  none;
     color: rgb(45, 145, 238);

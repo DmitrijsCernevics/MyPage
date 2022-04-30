@@ -1,5 +1,8 @@
-
+.nav {
+    width: 100vw;
+}
 .header {
+    
     display:flex;
     background-color: var(--black-color);
     /* background-image: url(../Images/Logo.png);

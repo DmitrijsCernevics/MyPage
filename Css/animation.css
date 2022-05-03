@@ -1,0 +1,75 @@
+.main__preTitle {
+animation-name: title;
+animation-duration: 1s;
+}
+.main__title {
+    animation-name: Up;
+    animation-duration: 0.5s;
+}
+.main__contactInfo {
+    animation-name: Contacts;
+    animation-duration: 2s;
+}
+.card {
+    animation-name: Show;
+    animation-duration: 1s;
+}
+@keyframes S {
+    0% {font-size: 0px;}
+    100% {font-size: 25px;}
+}
+@keyframes Show {
+    0% {opacity: 0;}
+
+    100% {opacity: 1;}
+}
+
+@keyframes title {
+    0% {opacity: 0;
+        transform: translateY(-1500%);}
+
+    100% {opacity: 1;
+        transform: none;}
+}
+@keyframes Up {
+    0% {
+        opacity: 0;
+        transform: translateY(-1000%);}
+
+    100% {opacity: 1;
+        transform: none;}
+    }
+
+@keyframes Contacts {
+    0% {opacity: 0;
+        font-size: 10px;}
+    75% {opacity: 0;
+        font-size: 10px;}
+    85% {opacity: 1;
+        font-size: 50px;
+    }
+    100% {opacity: 1;
+        font-size: 25px;}
+    }
+
+
+
+
+
+
+/* @keyframes example {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+@keyframes slideinLeft {
+    0% { margin-bottom:1600px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:-400px; }
+    100% { margin-bottom:0px; }
+}
+@keyframes slideinUp {
+    0% { :1600px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:-400px; }
+    100% { margin-bottom:0px; }
+} */

@@ -1,3 +1,7 @@
+.header__logo {
+    animation-name: Rotate;
+    animation-duration: 1.5s;
+}
 .main__preTitle {
 animation-name: S;
 animation-duration: 1s;
@@ -13,6 +17,11 @@ animation-duration: 1s;
 .card, .main__preTitle, .main__title {
     animation-name: Show;
     animation-duration: 1s;
+}
+
+@keyframes Rotate {
+    0% {transform: rotateY();}
+   100% {transform: rotateY(360deg);}
 }
 @keyframes Show {
     0% {opacity: 0;}

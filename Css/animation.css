@@ -1,22 +1,18 @@
-/* .main__preTitle {
-animation-name: title;
+.main__preTitle {
+animation-name: S;
 animation-duration: 1s;
 }
 .main__title {
-    animation-name: Up;
+    animation-name: ;
     animation-duration: 0.5s;
-} */
+}
 .main__contactInfo {
     animation-name: Contacts;
     animation-duration: 2s;
 }
-.card {
+.card, .main__preTitle, .main__title {
     animation-name: Show;
     animation-duration: 1s;
-}
-@keyframes S {
-    0% {font-size: 0px;}
-    100% {font-size: 25px;}
 }
 @keyframes Show {
     0% {opacity: 0;}

@@ -20,6 +20,10 @@
             }}
 /* Main */
 @media only screen and (max-width: 800px){
+    .main__contactInfo {
+        animation-name: Contacts2 !important;
+        animation-duration: 2s;
+    }
     .main__preTitle {
         font-size: 34px;
     }
@@ -30,6 +34,10 @@
         font-size: 40px;
     }}
 @media only screen and (max-width: 370px){
+    .main__contactInfo {
+        animation-name: Contacts2 !important;
+        animation-duration: 2s;
+    }
     .main__preTitle {
         font-size: 17px;
     }

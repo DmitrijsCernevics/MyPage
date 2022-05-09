@@ -87,8 +87,8 @@
     .card_container {
         transform: scale(0.25);
     }
-}
-@media only screen and (max-height: 620px){
+} */
+/* @media only screen and (max-height: 620px){
     .portfolio_header {
         position: relative;
         top: 162px;    

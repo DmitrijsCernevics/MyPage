@@ -62,11 +62,18 @@
     }
 }
 @media only screen and (max-width: 880px){
+    .portfolio {
+    justify-content: flex-start !important;
+    }
     .card_container {
-        transform: scale(0.6);
+        align-items: center;
+        flex-direction: column !important;
+    }
+    .card {
+        transform: scale(0.8);
     }
 }
-@media only screen and (max-width: 670px){
+/* @media only screen and (max-width: 670px){
     .card_container {
         transform: scale(0.4);
     }
@@ -92,4 +99,4 @@
     .card_container {
         transform: scale(0.5);
     }
-}
+} */

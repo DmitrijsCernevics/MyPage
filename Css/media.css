@@ -1,23 +1,30 @@
 
 /* Header */
+@media only screen and (min-width: 690px){
+    .header a.icon {
+        display: none;
+    }}
 @media only screen and (max-width: 690px){
-        .header__item a {
-            font-size: 15px;
-            padding: 2px 12px;
-        }
-        .header {
-            justify-content: flex-end;
-        }}
-@media only screen and (max-width: 440px){
-            .header__item a {
-                padding: 2px 12px;
-                font-size: 12px;
-            }
-            .header {
-                flex-direction: column;
-                align-items: flex-end;
+    .header #myLinks {
+        display: none;
+      }
+.header a.icon {
+    transform:scale(3);
+    background: black;
+    display: block;
+    position: absolute;
+    margin:20px;
+    right: 0;
+    top: 0;
+  }
+  .header__item a {
+    font-size: 15px;
+    padding: 2px 12px;
+}
+.header {
+    justify-content: center;
+}}
 
-            }}
 /* Main */
 @media only screen and (max-width: 800px){
     .workExperience, .aboutMe {
@@ -73,30 +80,23 @@
         transform: scale(0.8);
     }
 }
-/* @media only screen and (max-width: 670px){
-    .card_container {
-        transform: scale(0.4);
+
+
+/* @media only screen and (max-width: 690px){
+    .header__item a {
+        font-size: 15px;
+        padding: 2px 12px;
     }
-}
-@media only screen and (max-width: 450px){
-    .card_container {
-        transform: scale(0.3);
-    }
-}
-@media only screen and (max-width: 350px){
-    .card_container {
-        transform: scale(0.25);
-    }
-} */
-/* @media only screen and (max-height: 620px){
-    .portfolio_header {
-        position: relative;
-        top: 162px;    
-    }
-    .portfolio {
-        height: 620px;
-    }
-    .card_container {
-        transform: scale(0.5);
-    }
-} */
+    .header {
+        justify-content: flex-end;
+    }}
+@media only screen and (max-width: 440px){
+        .header__item a {
+            padding: 2px 12px;
+            font-size: 12px;
+        }
+        .header {
+            flex-direction: column;
+            align-items: flex-end;
+
+        }} */

@@ -91,6 +91,8 @@
     justify-content: flex-start !important;
     }
     .card_container {
+        margin: 0px !important;
+        height: 800px;
         align-items: center;
         flex-direction: column !important;
     }

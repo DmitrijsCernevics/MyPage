@@ -1,6 +1,24 @@
 
 /* Header */
-@media only screen and (min-width: 690px){
+@media only screen and (max-width: 690px){
+    .header__item a {
+        font-size: 15px;
+        padding: 2px 12px;
+    }
+    .header {
+        justify-content: flex-end;
+    }}
+@media only screen and (max-width: 440px){
+        .header__item a {
+            padding: 2px 12px;
+            font-size: 12px;
+        }
+        .header {
+            flex-direction: column;
+            align-items: flex-end;
+
+        }}
+/* @media only screen and (min-width: 690px){
     .header a.icon {
         display: none;
     }}
@@ -23,7 +41,7 @@
 }
 .header {
     justify-content: center;
-}}
+}} */
 
 /* Main */
 @media only screen and (max-width: 800px){
@@ -33,7 +51,7 @@
     .main {
         background-image: linear-gradient(rgb(65, 63, 63), black);
         background-size: 100%;
-        height: 50vh;
+        height: ;
     }
     .main__contactInfo {
         animation-name: Contacts2 !important;
@@ -82,21 +100,3 @@
 }
 
 
-/* @media only screen and (max-width: 690px){
-    .header__item a {
-        font-size: 15px;
-        padding: 2px 12px;
-    }
-    .header {
-        justify-content: flex-end;
-    }}
-@media only screen and (max-width: 440px){
-        .header__item a {
-            padding: 2px 12px;
-            font-size: 12px;
-        }
-        .header {
-            flex-direction: column;
-            align-items: flex-end;
-
-        }} */
